@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "ExpenseTracker",
+    "slug": "expense-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "scheme": "myapp",
+    "extra": {
+      "SUPABASE_URL": "https://your-project.supabase.co",
+      "SUPABASE_ANON_KEY": "your-anon-key",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "040c269d-2ec1-4aac-995e-a0018adad0c2"
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "owner": "akshatdaxini"
+  }
+}

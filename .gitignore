@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React Native
+*.log
+*.eslintcache
+*.prettierrc
+react-native-debugger/
+react-native-packager/
+*.hmap
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/app/src/main/assets/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/.vscode/
+
+# Xcode
+xcuserdata/
+*.xccheckout
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.*.local
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Expo (if using Expo)
+.expo/
+
+# Storybook
+.storybook/
+
+# Temporary files
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*.local
